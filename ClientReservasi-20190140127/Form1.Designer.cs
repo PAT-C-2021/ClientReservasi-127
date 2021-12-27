@@ -44,7 +44,9 @@ namespace ClientReservasi_20190140127
             this.btnHapus = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.dtPemesanan = new System.Windows.Forms.DataGridView();
+            this.performanceCounter1 = new System.Diagnostics.PerformanceCounter();
             ((System.ComponentModel.ISupportInitialize)(this.dtPemesanan)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -203,6 +205,7 @@ namespace ClientReservasi_20190140127
             this.Text = "Reservasi";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtPemesanan)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -225,6 +228,7 @@ namespace ClientReservasi_20190140127
         private System.Windows.Forms.Button btnHapus;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.DataGridView dtPemesanan;
+        private System.Diagnostics.PerformanceCounter performanceCounter1;
     }
 }
 
